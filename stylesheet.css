@@ -1,0 +1,516 @@
+body {
+    background-color: rgb(179, 46, 46);
+    color: aliceblue;
+}
+
+nav ul {
+    list-style: none;
+    margin-left: 60%;
+    margin-top: 1%;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 50px;
+    padding-top: 15px;
+
+}
+
+nav {
+    background-color: brown;
+    height: 50px;
+    margin-top: -15px;
+}
+
+header h1, main h2 {
+    text-align: center;
+}
+
+header h1 {
+    padding-bottom: 20px;
+    width: 20%;
+    height: 60px;
+    margin: auto;
+}
+
+main h2 {
+    margin-top: 2%;
+}
+
+.logot {
+    width: 300px;
+    margin: auto;
+}
+
+#logo {
+    width: 300px;
+    
+}
+
+#user, #pass, .btn, .asp, .btn, #email{
+    display: block; 
+    margin: auto;
+    text-align: center;
+    border-radius: 5px;
+    
+}
+
+#user, #pass, #email {
+    background-color: rgb(223, 120, 120);
+    border-radius: 8px;
+    border-style: none;
+}
+
+#user, #pass  {
+     width: 200px;
+}
+
+legend {
+    text-align: center;
+}
+
+.login {
+    margin: auto;
+    margin-bottom: 40px;
+    width: 300px;
+}
+
+
+
+.login input {
+    width: 300px;
+}
+
+footer {
+    background-color: maroon;
+    margin-bottom: -3%;
+    text-align: center;
+    height: 50px;
+}
+
+footer p {
+    display: inline-block;
+    margin-top: 1%;
+}
+
+.btn {
+    margin-top: 20px;
+    background-color: rgb(250, 209, 209);
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-color: aliceblue;
+}
+li a, li a:visited {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+li a:hover {
+    background-color: aliceblue;
+    color: black;
+    border-radius: 8px;
+    height: 25px;
+}
+
+.linkao {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.linkao:hover{
+    background-color: maroon;
+    border-radius: 3px;
+    color: aliceblue;
+}
+
+.btn a {
+    color: black;
+}
+
+@media screen and (max-width: 360px) {
+    nav, footer {
+     width: 100%;
+    }
+
+nav ul {
+    margin-left: 0;
+}
+
+nav ul li {
+    margin-left: 5px;
+}
+
+header h1 {
+    width: 50%;
+    position: relative;
+    top: 30px;
+}
+}
+
+@media screen and (max-width: 375px) {
+    nav ul {
+        margin-left: 0;
+    }
+    
+    nav ul li {
+        margin-left: 5px;
+}
+}
+
+@media screen and (max-width: 425px) {
+    nav ul {
+        margin-left: 0;
+    }
+    
+    nav ul li {
+        margin-left: 5px;
+}
+}
+
+@media screen and (max-width: 768px) {
+    nav ul {
+        margin-left: 0;
+    }
+    
+    nav ul li {
+        margin-left: 5px;
+}
+}
+
+@media screen and (max-width: 1025px) {
+    nav ul {
+        margin-left: 0;
+    }
+    
+    nav ul li {
+        margin-left: 5px;
+}
+}
+
+@media screen and (max-width: 1130px) {
+    nav ul {
+        margin-left: 0;
+    }
+    
+    nav ul li {
+        margin-left: 5px;
+}
+}
+
+.imglogo {
+    margin-left: 10px;
+    width: 100px;   
+}
+.imglogo1 {
+    width: 60px;
+    height: 80px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+
+
+.menumenu {
+    border-right: solid black 2px;
+    width: 110px;
+    margin-top: -83px;
+}
+
+.linha {
+    width: 110px;
+    border-bottom: solid black 2px;
+}
+
+.fot {
+    background-color: maroon;
+    margin-top: -425px;
+    margin-bottom: 0;
+    text-align: center;
+    height: 70px;
+    position: static;
+    
+}
+
+.fot p {
+    display: inline-block;
+    margin-top: 1%;
+}
+
+
+.gtr {
+    position: relative;
+    height: 100px;
+    margin-top: -28px;
+}
+
+.gtr h1 {
+    margin-top: 30px;
+    padding-top: 40px; 
+}
+
+.corpo {
+    position: relative;
+    width: 400px;
+    bottom: 230px;
+    margin: auto;
+    
+}
+div.corpo {
+    margin-bottom: 200px;
+    height: 100px;
+}
+
+.imc, .agua, .passos {
+    background-color: maroon;
+    width: 250px;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.imc {
+    position: relative;
+    bottom: 600px;
+    right: 250px;
+}
+
+.agua {
+    position: relative;
+    bottom: 550px;
+    left: 250px;
+}
+
+.passos {
+    position: relative;
+    bottom: 450px;
+    right: 250px;
+}
+
+.progress {
+    width: 500px;
+    position: relative;
+    left: 300px;
+    bottom: 450px;
+}
+
+@media screen and (max-width: 320px) {
+    .fot {
+        position: fixed;
+        bottom: -330px;
+        margin: auto;
+        width: 1200px;
+        height: 300px;
+    }
+    .fot p {
+        font-size: 50px;
+        padding-top: 100px;
+    }
+
+    div.corpo{
+        left: 200px;
+        top: -800px;
+        margin-top: 100px;
+    }
+    .corpo {
+        width: 800px;
+        left: 100px;
+        
+    }
+
+    .progress {
+        bottom: 550px;
+        left: 260px;
+        height: 30px;
+        width: 600px;
+        font-size: 30px;
+    }
+    
+    .gtr h1 {
+        font-size: 80px;
+        width: 500px;
+        padding-right: 100px;
+    }
+
+    .gtr {
+        margin-left: -100px;
+        padding-top: -160px;
+        font-size: 80px;
+        width: 500px;
+    }
+
+
+    .menumenu {
+        width: 200px;
+        height: 1210px;
+    }
+
+    .imglogo1, .imglogo {
+        width: 160px;
+        height: 160px;
+        margin-left: 30px;
+        margin-top: 40px;
+    }
+
+    .linha {
+        width: 200px;
+    }
+
+    .imc {
+        left: 250px;
+        bottom: 1100px;
+        width: 300px;
+        height: 120px;
+    }
+
+    .agua{
+        bottom: 800px;
+        width: 300px;
+        height: 185px;
+    }
+
+    .imc h3, .agua h3, .passos h3 {
+        font-size: 50px;
+    }
+
+    .passos {
+        left: 450px;
+        bottom: 600px;
+        height: 190px;
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .fot {
+        position: fixed;
+        top: 1400px;
+        margin: auto;
+        width: 1100px;
+        height: 200px;
+    }
+    .fot p {
+        font-size: 50px;
+        padding-top: 50px;
+    }
+
+    div.corpo{
+        left: 250px;
+        top: -900px;
+    }
+    .corpo {
+        width: 800px;
+    }
+
+    .progress {
+        bottom: 680px;
+        left: 260px;
+        height: 30px;
+        width: 600px;
+        font-size: 30px;
+    }
+    
+    .gtr, .gtr h1 {
+        left: 300px;
+        font-size: 80px;
+        width: 500px;
+        font-size: 80px;
+    }
+
+    .menumenu {
+        width: 200px;
+        height: 1210px;
+    }
+
+    .imglogo1, .imglogo {
+        width: 160px;
+        height: 160px;
+        margin-left: 30px;
+        margin-top: 40px;
+    }
+
+    .linha {
+        width: 200px;
+    }
+
+    .imc {
+        left: 250px;
+        bottom: 1300px;
+        width: 300px;
+        height: 120px;
+    }
+
+    .agua{
+        bottom: 900px;
+        left: 200px;
+        width: 300px;
+        height: 185px;
+    }
+
+    .imc h3, .agua h3, .passos h3 {
+        font-size: 50px;
+    }
+
+    .passos {
+        left: 450px;
+        bottom: 700px;
+        height: 190px;
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .fot {
+        position: fixed;
+        top: 950px;
+        margin: auto;
+        width: 800px;
+        height: 100px;
+        text-align: center;
+    }   
+    .fot p {
+        font-size: 30px;
+        padding-top: 30px;
+        margin: auto;
+        text-align: center;
+    }
+    div.corpo{
+        left: 200px;
+        top: -300px;
+    }
+    .corpo {
+        width: 700px;
+    }
+    .progress {
+        bottom: 375px;
+        left: 160px;
+        height: 30px;
+        width: 600px;
+        font-size: 30px;
+    }
+    .imc {
+        left: 250px;
+        bottom: 1300px;
+        width: 300px;
+        height: 120px;
+    }
+
+    .agua{
+        bottom: 900px;
+        left: 200px;
+        width: 300px;
+        height: 185px;
+    }
+
+    .imc h3, .agua h3, .passos h3 {
+        font-size: 30px;
+    }
+
+    .passos {
+        left: 100px;
+        bottom: 400px;
+        height: 100px;
+        width: 250px;
+    }
+}

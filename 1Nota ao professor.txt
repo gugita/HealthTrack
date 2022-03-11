@@ -1,0 +1,7 @@
+Olá Professor(a)
+sofri muito tentando criar um layout responsivel para o meu projeto, porem a ferramenta de desenvolvedor do google chrome tem algum erro muito sinistro ou é amaldiçoada e tem vida propria.
+quando eu clicava para ver em um tamanho x estava normal, quando ia para o y estava normal também, porem ao retornar para o x o layout estava desconfigurado e muito diferente sem eu ter mexido em nada no codigo fonte.
+por favor não desconte muitos pontos se quando você for testar o layout estiver estranho em determinadas resoluções, eu bati muito a cabeça na mesa, gritei, dei voltas no quarto, mas no final consegui finalizar tudo por aqui e no ultimo teste que eu fiz estava tudo normal (07/03/2022 16:56)
+Obrigado pela atenção. 
+
+Gustavo 
